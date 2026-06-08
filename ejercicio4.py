@@ -10,10 +10,10 @@
 #FUNCIONES DE ENTRADA Y SALIDA
 #ENTRADA-INPUT()/SALIDA-PRINT()
 
-nombre = input("como te llamas?")
+nombre1 = input("como te llamas?")
 edad= int(input("que edad tienes?"))
 
 #diferentes formas de escribir
-print("Hola," , nombre) #coo coma
-print("Hola " + nombre) #concatenando
-print( f"Hola {nombre}, tienes {edad } años") #f-string 
+print("Hola," , nombre1) #coo coma
+print("Hola " + nombre1) #concatenando
+print( f"Hola {nombre1}, tienes {edad } años") #f-string 
