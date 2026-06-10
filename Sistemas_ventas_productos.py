@@ -12,11 +12,10 @@ cantidad_descuento= subtotal *DESCUENTO
 el_descuento = subtotal - cantidad_descuento
 #para calcular iva
 precio_iva = el_descuento * IVA
-
-tota_pago= el_descuento+ precio_iva
+tota_pago= el_descuento + precio_iva
 
 print("~"*50)
-print("                  RESIBO DE VENTA      ")
+print("                  TICKET DE COMPRA     ")
 print("~"*50)
 print("/n")
 print (f"Cliente:   {nombre_cliente}")
